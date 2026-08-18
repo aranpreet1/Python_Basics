@@ -83,10 +83,3 @@ Variables act as labeled containers for our data. They make our code dynamic, re
 * [Python Data Types (W3Schools)](https://www.w3schools.com/python/python_datatypes.asp) - *Great visual breakdown of basic types.*
 * [Python Operators Documentation](https://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator) - *Official guide to math and logic in Python.*
 * [Python Tutor](https://pythontutor.com/) - *An amazing visual tool. Paste your code here to watch how Python creates and overwrites variables step-by-step.*
-
----
-
-
-* **Task 1:** Create a new Colab notebook. Define a list of your 5 favorite numbers.
-* **Task 2:** Use Python functions to find the sum, the maximum, and the minimum of your list.
-* **Task 3:** Try assigning the result of `sum()` to a new variable, and output it by typing the variable name at the bottom of the cell!
