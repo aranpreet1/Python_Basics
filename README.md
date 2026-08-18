@@ -6,7 +6,7 @@
 ---
 
 ## 🎯 Overview
-Welcome to Session 01! This class laid the foundation for our Python journey. We explored the Google Colab environment, understood how Python categorizes data, learned to manipulate that data using operators and variables, and took our first look at organizing multiple pieces of data using Lists.
+Welcome to Session 01! This class laid the foundation for our Python journey. We explored the Google Colab environment, understood how Python categorizes data, learned to manipulate that data using operators and variables.
 
 ---
 
