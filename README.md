@@ -18,7 +18,7 @@ Before writing code, we need to know our workspace. Colab runs Python in your br
   * `Shift + Enter`: Run the current cell and move to the next.
   * `Ctrl + Enter`: Run the current cell and stay on it.
   * `A` / `B`: Insert a new code cell **A**bove or **B**elow the current one.
-* **Markdown:** Used for adding formatted text notes (like this document!) alongside your code.
+* **Outputting Data:** In Colab, you don't need a special command to see your result. Just type the value, variable, or expression on the last line of your code cell, and Colab will display the output automatically.
 
 ### 2. Data Types & Core Functions
 Data comes in different shapes. Python needs to know what kind of data it's looking at to process it correctly.
@@ -26,12 +26,13 @@ Data comes in different shapes. Python needs to know what kind of data it's look
 * **Strings:** Can be declared using `'single'`, `"double"`, or `'''triple'''` quotes.
 * **Core Functions:**
   ```python
-  # print() outputs your data to the screen
-  print("Hello, World!") 
-
   # type() tells you what kind of data you are working with
-  print(type(10))       # Output: <class 'int'>
-  print(type(10.5))     # Output: <class 'float'>
+  
+  type(10)
+  # Colab Output: int
+
+  type(10.5)     
+  # Colab Output: float
   ```
 
 ### 3. Operators: Math & Logic
@@ -40,8 +41,9 @@ Operators allow us to perform calculations and make decisions.
   * *Crucial rule:* Division (`/`) **always** returns a Float, even if the numbers divide evenly (e.g., `10 / 2` becomes `5.0`).
 * **Comparison:** `>`, `<`, `>=`, `<=`, `==` (Equal to), `!=` (Not equal to).
   ```python
-  print(5 > 3)   # Output: True
-  print(10 == 5) # Output: False (Checking equality)
+  # Checking equality
+  10 == 5 
+  # Colab Output: False 
   ```
 
 ### 4. Variables: Storing Data
@@ -59,6 +61,10 @@ Variables act as labeled containers for our data. They make our code dynamic, re
   
   # Shorthand assignment
   score += 5 # Same as: score = score + 5
+  
+  # Seeing the result in Colab
+  score
+  # Colab Output: 25
   ```
 
 ### 5. Introduction to Lists
@@ -71,10 +77,10 @@ Instead of creating 100 variables for 100 movies, we use a **Data Structure** to
   # A list of numeric values
   scores = [85, 92, 78, 90]
 
-  # Applying built-in list functions
-  print(len(scores)) # Count: 4
-  print(max(scores)) # Highest: 92
-  print(sum(scores)) # Total: 345
+  # Applying built-in list functions (put these at the end of a cell to see the output)
+  len(scores) # Count: 4
+  max(scores) # Highest: 92
+  sum(scores) # Total: 345
   ```
 
 ---
@@ -96,3 +102,7 @@ Instead of creating 100 variables for 100 movies, we use a **Data Structure** to
 
 ---
 
+
+* **Task 1:** Create a new Colab notebook. Define a list of your 5 favorite numbers.
+* **Task 2:** Use Python functions to find the sum, the maximum, and the minimum of your list.
+* **Task 3:** Try assigning the result of `sum()` to a new variable, and output it by typing the variable name at the bottom of the cell!
