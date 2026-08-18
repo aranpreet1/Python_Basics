@@ -67,22 +67,6 @@ Variables act as labeled containers for our data. They make our code dynamic, re
   # Colab Output: 25
   ```
 
-### 5. Introduction to Lists
-Instead of creating 100 variables for 100 movies, we use a **Data Structure** to group them.
-* **Why Lists?** They store multiple values under a single name and let us easily analyze that data.
-  ```python
-  # A list of mixed information
-  movie_info = ["Inception", 2010, 8.8, True]
-
-  # A list of numeric values
-  scores = [85, 92, 78, 90]
-
-  # Applying built-in list functions (put these at the end of a cell to see the output)
-  len(scores) # Count: 4
-  max(scores) # Highest: 92
-  sum(scores) # Total: 345
-  ```
-
 ---
 
 ## 💡 Extra Tips & Best Practices
