@@ -1,7 +1,7 @@
 # Class Brief: Session 01 - Python Basics & Intro to Lists
 
 **Date:** August 18, 2026  
-**Instructor:** Aman | Saras AI Institute  
+**Instructor:** Gaurav Singh | Saras AI Institute  
 
 ---
 
